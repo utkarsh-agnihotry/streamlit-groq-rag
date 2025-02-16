@@ -16,8 +16,17 @@ import time
 import paramiko
 
 
+
 from dotenv import load_dotenv
 load_dotenv()
+
+st.markdown("""
+    <style>
+        #MainMenu {visibility: hidden;}  /* Hides the entire top-right menu */
+        header {visibility: hidden;}  /* Hides the header */
+        footer {visibility: hidden;}  /* Hides the footer */
+    </style>
+""", unsafe_allow_html=True)
 
 ## load the Groq API key
 groq_api_key=os.environ['GROQ_API_KEY']
