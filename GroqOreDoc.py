@@ -25,6 +25,7 @@ st.markdown("""
         #MainMenu {visibility: hidden;}  /* Hides the entire top-right menu */
         header {visibility: hidden;}  /* Hides the header */
         footer {visibility: hidden;}  /* Hides the footer */
+        .st-emotion-cache-1v0mbdj {display: none !important;}  /* Hides "Created by" *
     </style>
 """, unsafe_allow_html=True)
 
