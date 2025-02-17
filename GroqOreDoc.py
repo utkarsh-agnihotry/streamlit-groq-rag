@@ -35,7 +35,7 @@ groq_api_key=os.environ['GROQ_API_KEY']
 # Define FAISS storage path
 FAISS_INDEX_PATH = "./faiss_index"
 
-VALID_USERS = ["5745401", "1234567", "7654321"]  # Add more as needed
+VALID_USERS = ["5745401", "437435", "7654321"]  # Add more as needed
 
 # Function to authenticate user based on the list
 def authenticate(username):
@@ -100,7 +100,7 @@ def rag_application():
             print("FAISS index saved successfully.")
 
 
-    st.title("ChatGroq Demo")
+    st.title("OREGPT Demo")
     llm=ChatGroq(groq_api_key=groq_api_key,
                 model_name="mixtral-8x7b-32768")
 
