@@ -31,6 +31,7 @@ st.markdown("""
 
 ## load the Groq API key
 groq_api_key=os.environ['GROQ_API_KEY']
+os.environ["HUGGINGFACE_HUB_TOKEN"] = os.getenv("HUGGINGFACE_HUB_TOKEN")
 
 # Define FAISS storage path
 FAISS_INDEX_PATH = "./faiss_index"
