@@ -36,7 +36,7 @@ os.environ["HUGGINGFACE_HUB_TOKEN"] = os.getenv("HUGGINGFACE_HUB_TOKEN")
 # Define FAISS storage path
 FAISS_INDEX_PATH = "./faiss_index"
 
-VALID_USERS = ["5745401", "437435", "7654321","4749706","4490382","5444465","6222124","4389151","5646959","4490382","6189834"]  # Add more as needed
+VALID_USERS = ["5745401", "437435", "7654321","4749706","4490382","5444465","6222124","4389151","5646959","4490382","6189834","5949337"]  # Add more as needed
 
 # Function to authenticate user based on the list
 def authenticate(username):
